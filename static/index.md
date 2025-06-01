@@ -1,6 +1,6 @@
 # About
 
-Add some information about your project here.
+ A magnetic wall-mounted tablet holder designed to install into a standard electrical installation box. 
 
 # Installation
 
