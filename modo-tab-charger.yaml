@@ -1,10 +1,10 @@
 esphome:
   name: modo-tab-charger
   friendly_name: Modo Tab Charger
-  name_add_mac_suffix: true
+  name_add_mac_suffix: "true"
   project:
-    name: modo.tab_charger
-    version: dev
+    name: "modo.tab_charger"
+    version: "dev"
 dashboard_import:
   package_import_url: github://mmodestas/modo-tab-charger/modo-tab-charger.yaml@main
 
