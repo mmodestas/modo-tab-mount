@@ -37,11 +37,7 @@ web_server:
 time:
   - platform: homeassistant
     id: homeassistant_time
-dsmr:
-  uart_id: p1_uart
-  max_telegram_length: 3000
-  receive_timeout: 200ms
-
+    
 text_sensor:
   - platform: version
     name: ESPHome Version
