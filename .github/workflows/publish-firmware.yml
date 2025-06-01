@@ -17,7 +17,7 @@ jobs:
         modo-tab-charger.factory.yaml
         modo-tab-charger.yaml
       esphome-version: 2025.4.0
-      combined-name: modo-tab-charger
+      #combined-name: modo-tab-charger
       #### Modify above here to match your project ####
 
       release-summary: ${{ github.event.release.body }}
