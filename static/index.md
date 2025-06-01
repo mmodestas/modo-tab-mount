@@ -1,6 +1,6 @@
 # About
 
-# A magnetic wall-mounted tablet holder designed to install into a standard electrical installation box. 
+A magnetic wall-mounted tablet holder designed to install into a standard electrical installation box. 
 
 # Tablet Mount Design:
 - Appears to float on the wall.
