@@ -4,7 +4,7 @@ esphome:
   name_add_mac_suffix: true
   project:
     name: modo.tab_charger
-    version: dev
+    version: "dev"
 dashboard_import:
   package_import_url: github://mmodestas/modo-tab-charger/modo-tab-charger.yaml@main
 esp32:
