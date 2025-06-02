@@ -37,4 +37,4 @@ switch:
 #    interval: 1100ms
 #    window: 1100ms
 #    active: true 
-#bluetooth_proxy:
+bluetooth_proxy:
