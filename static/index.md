@@ -2,7 +2,7 @@
 
 A magnetic wall-mounted tablet holder designed to install into a standard electrical installation box.
 
-[Mount](/modo-tab-charger/static/assets/images/pic_2.png)
+![Mount](/modo-tab-charger/static/assets/images/pic_2.png)
 
 # Tablet Mount Design:
 - Appears to float on the wall.
