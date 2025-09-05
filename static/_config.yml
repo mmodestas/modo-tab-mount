@@ -1,4 +1,4 @@
 # CHANGEME: Set these variable to your liking
 title: Modo-Tab-Mount
-description: A smart tablet wall mount that fits standard EU installation boxes. Features a magnetic attachment, integrated power supply, LED lights controlled by ESP32-C3 and ESPHOME.
+description: An in-wall tablet mount with an optional smart power supply.
 theme: jekyll-theme-slate
