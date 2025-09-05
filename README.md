@@ -1,3 +1,12 @@
-# Modo Tab Charger
+# Modo Tab Mount
 
-This repository contains the ESPHome configuration for an in-wall tablet mount using an ESP32-C3 Mini microcontroller. It enables switching tablet charging on and off, and also functions as a Bluetooth proxy.
+This repository provides an in-wall tablet mount with an optional power supply based on the ESP32-C3 microcontroller.  
+Firmware is built with ESPHome.
+
+## Features
+- Compatible with standard EU/US wall installation boxes  
+- Supports most tablets  
+- Minimal wall-to-tablet gap (<5 mm)  
+- Integrated 5V / 2A power supply with ESP32-C3 for control and automation  
+- Optional WS2812 LEDs  
+- ESPHome-based firmware for seamless Home Assistant integration 
