@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Modo Tab Mount</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* Carousel styles */
+    .carousel {
+      position: relative;
+      max-width: 600px;
+      margin: 20px auto;
+      overflow: hidden;
+      border-radius: 0px;
+      box-shadow: 0 0px 0px rgba(0,0,0,0.2);
+    }
+    .slides {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+    }
+    .slides img {
+      width: 100%;
+      height: 400px;
+      object-fit: scale-down;
+      flex-shrink: 0;
+    }
+    .buttons {
+      position: absolute;
+      top: 50%;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      transform: translateY(-40%);
+      padding: 0 0px;
+    }
+    .buttons button {
+      background: rgba(0,0,0,0.5);
+      color: white;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+      border-radius: 50%;
+    }
+    .dots {
+      text-align: center;
+      margin: 10px 0;
+    }
+    .dot {
+      height: 12px;
+      width: 12px;
+      margin: 0 4px;
+      display: inline-block;
+      background-color: #bbb;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+    .dot.active {
+      background-color: #333;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Modo Tab Mount</h1>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="about.html">About</a> |
+      <a href="downloads.html">Downloads</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Floating Wall Tablet Mount</h2>
+      <p>
+        A smart tablet wall mount that fits standard EU/US installation boxes.  
+        Features a magnetic attachment, integrated smart charger, optional LEDs, and ESP32 control.
+      </p>
+
+      <!-- Carousel -->
+      <div class="carousel" id="carousel">
+        <div class="slides" id="slides"></div>
+        <div class="buttons">
+          <button onclick="prevSlide()">❮</button>
+          <button onclick="nextSlide()">❯</button>
+        </div>
+      </div>
+      <div class="dots" id="dots"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Modoco</p>
+  </footer>
+
+  <script>
+    const images = [
+      "assets/images/pic_1.png",
+      "assets/images/pic_3.png",
+	  "assets/images/pic_2.png",
+      "assets/images/mount.png"
+
+    ];
+
+    const slides = document.getElementById("slides");
+    const dotsContainer = document.getElementById("dots");
+
+    // Create cloned slides for infinite loop
+    slides.innerHTML = `
+      <img src="${images[images.length - 1]}" alt="clone-last">
+      ${images.map((src, i) => `<img src="${src}" alt="slide-${i+1}">`).join("")}
+      <img src="${images[0]}" alt="clone-first">
+    `;
+
+    const total = images.length;
+    let index = 1; // start at first real slide
+    let isTransitioning = false;
+
+    const dots = [];
+    for (let i = 0; i < total; i++) {
+      let dot = document.createElement("span");
+      dot.classList.add("dot");
+      dot.addEventListener("click", () => showSlide(i + 1));
+      dotsContainer.appendChild(dot);
+      dots.push(dot);
+    }
+
+    function updateDots() {
+      dots.forEach(dot => dot.classList.remove("active"));
+      dots[(index - 1 + total) % total].classList.add("active");
+    }
+
+    function showSlide(i) {
+      if (isTransitioning) return;
+      index = i;
+      slides.style.transition = "transform 0.5s ease-in-out";
+      slides.style.transform = `translateX(${-index * 100}%)`;
+      isTransitioning = true;
+      updateDots();
+    }
+
+    function nextSlide() {
+      showSlide(index + 1);
+    }
+
+    function prevSlide() {
+      showSlide(index - 1);
+    }
+
+    slides.addEventListener("transitionend", () => {
+      isTransitioning = false;
+      if (index === 0) {
+        slides.style.transition = "none";
+        index = total;
+        slides.style.transform = `translateX(${-index * 100}%)`;
+      }
+      if (index === total + 1) {
+        slides.style.transition = "none";
+        index = 1;
+        slides.style.transform = `translateX(${-index * 100}%)`;
+      }
+    });
+
+    // Auto-play
+    let autoPlay = setInterval(nextSlide, 4000);
+    function resetAutoPlay() {
+      clearInterval(autoPlay);
+      autoPlay = setInterval(nextSlide, 4000);
+    }
+
+    // Swipe support
+    let startX = 0;
+    const carousel = document.getElementById("carousel");
+
+    carousel.addEventListener("touchstart", e => {
+      startX = e.touches[0].clientX;
+    });
+
+    carousel.addEventListener("touchend", e => {
+      let endX = e.changedTouches[0].clientX;
+      let diff = startX - endX;
+      if (diff > 50) {
+        nextSlide();
+        resetAutoPlay();
+      } else if (diff < -50) {
+        prevSlide();
+        resetAutoPlay();
+      }
+    });
+
+    // Init
+    slides.style.transform = `translateX(${-index * 100}%)`;
+    updateDots();
+  </script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Downloads - Modo Tab Mount</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Downloads</h1>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="about.html">About</a> |
+      <a href="downloads.html">Downloads</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>STL Files</h2>
+      <p>Download and print the tablet mount:</p>
+      <a href="assets/stl/mount.stl" download>📥 Download Mount STL</a>
+    </section>
+
+    <section>
+      <h2>3D Preview</h2>
+      <div id="viewer" style="width:100%; height:500px;"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Modoco</p>
+  </footer>
+
+  <!-- Three.js & STL Loader -->
+  <script src="https://cdn.jsdelivr.net/npm/three@0.157.0/build/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.157.0/examples/js/loaders/STLLoader.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.157.0/examples/js/controls/OrbitControls.js"></script>
+
+  <script>
+    const scene = new THREE.Scene();
+    const camera = new THREE.PerspectiveCamera(75, window.innerWidth / 500, 0.1, 1000);
+    const renderer = new THREE.WebGLRenderer({antialias: true});
+    renderer.setSize(window.innerWidth, 500);
+    document.getElementById("viewer").appendChild(renderer.domElement);
+
+    scene.add(new THREE.HemisphereLight(0xffffff, 0x444444, 1));
+    const dirLight = new THREE.DirectionalLight(0xffffff, 1);
+    dirLight.position.set(3, 10, 10);
+    scene.add(dirLight);
+
+    const loader = new THREE.STLLoader();
+    loader.load("assets/stl/mount.stl", (geometry) => {
+      const material = new THREE.MeshPhongMaterial({ color: 0x0077ff });
+      const mesh = new THREE.Mesh(geometry, material);
+      geometry.center();
+      mesh.rotation.x = -Math.PI / 2;
+      scene.add(mesh);
+    });
+
+    camera.position.z = 100;
+    const controls = new THREE.OrbitControls(camera, renderer.domElement);
+
+    function animate() {
+      requestAnimationFrame(animate);
+      renderer.render(scene, camera);
+    }
+    animate();
+  </script>
+</body>
+</html>
