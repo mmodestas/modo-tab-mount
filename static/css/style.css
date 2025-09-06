@@ -26,3 +26,23 @@ footer {
 a {
   color: #0077ff;
 }
+
+/* Base navigation style (desktop & tablet) */
+nav {
+  font-size: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+/* Mobile adjustments */
+@media (max-width: 600px) {
+  nav {
+    font-size: 1.4rem;   /* make text bigger */
+    flex-direction: column; /* stack vertically if needed */
+    gap: 0.8rem;        /* increase spacing */
+  }
+
+  nav a {
+    padding: 0.5rem 0;  /* add tappable area */
+  }
+}
