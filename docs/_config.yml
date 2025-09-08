@@ -1,0 +1,11 @@
+title: "Modo Tab Mount"
+description: "Smart in-wall tablet mount with charger and optional ESP32 integration"
+theme: jekyll-theme-minimal
+
+# Navigation menu
+header_pages:
+  - index.md
+  - about.md
+  - installation.md
+  - pcb.md
+  - shop.md
