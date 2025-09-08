@@ -2,21 +2,33 @@
 title: Power Supply PCB
 ---
 
-![PCB](/docs/images/pic_pcb_1.png)
+![PCB](images/pic_pcb_1.png)
 
-# PCB & Documentation
+# Power Supply PCB & Documentation
 
-The project includes a custom PCB with ESP32-C3 microcontroller for providing 5V to Tablet. It also has ouput for optional LED strip, surrounding sides of the holder plate part - for status indication or nigth light. 
+This project includes a **custom power supply PCB** with an integrated **XIAO ESP32-C3 microcontroller**.  
+It delivers a stable 5V output for the tablet and also provides an additional output for an **optional LED strip** around the holder plate — perfect for **status indication** or use as a subtle **night light**.  
 
-Firmware is build with ESPHome, so smarthome users can utilize other available ports. See Schematics for details.
+The firmware is built with **ESPHome**, making it easily customizable for smart home enthusiasts.  
+You can adapt it to your needs and make use of the available pins for additional peripherals such as:  
+- Temperature and humidity sensors  
+- Presence (PIR) sensor  
+- Other low-power modules  
 
-## Specs
-- Power supply module: MeanWell IRM-10-5
-- Input: 85-265V AC
-- Output: 5V / 2A via flat USB-C cable  
-- ESP32-C3 for smart switching and LED control
+For convenience, a **dedicated 4-pin male header** is provided for sensor integration.  
+See the **schematics** for detailed pin assignments and wiring.
 
+---
 
-### Downloads
+## Technical Specifications
+- **Power module:** Mean Well IRM-10-5 (10W AC/DC converter)  
+- **Input:** 85–265V AC (universal mains voltage)  
+- **Output:** 5V / 2A via flat USB-C cable  
+- **Controller:** ESP32-C3 for smart switching, automation, and LED control  
+
+---
+
+## Documentation & Resources
 - [Schematics (PDF)](files/schematics.pdf)  
-- [Gerber Files (ZIP)](files/gerbers.zip)
+- [Gerber Files (ZIP)](files/gerbers.zip)  
+- [ESPHome Configuration Example](files/esphome_config.yaml) *(optional)*  
