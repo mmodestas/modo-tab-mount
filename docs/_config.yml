@@ -1,6 +1,6 @@
 title: "Modo Tab Mount"
 description: "Smart in-wall tablet mount with charger and optional ESP32 integration"
-remote_theme: pages-themes/minimal@v0.2.0
+theme: jekyll-theme-minimal
 
 # Navigation menu
 header_pages:
