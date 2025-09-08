@@ -2,21 +2,22 @@
 title: Power Supply PCB
 ---
 
-![PCB](images/pic_pcb_1.png)
-
 # Power Supply PCB & Documentation
 
 This project includes a **custom power supply PCB** with an integrated **XIAO ESP32-C3 microcontroller**.  
+
+![PCB](images/pic_pcb_1.png)
+
 It delivers a stable 5V output for the tablet and also provides an additional output for an **optional LED strip** around the holder plate — perfect for **status indication** or use as a subtle **night light**.  
 
 The firmware is built with **ESPHome**, making it easily customizable for smart home enthusiasts.  
+
 You can adapt it to your needs and make use of the available pins for additional peripherals such as:  
 - Temperature and humidity sensors  
 - Presence (PIR) sensor  
 - Other low-power modules  
 
-For convenience, a **dedicated 4-pin male header** is provided for sensor integration.  
-See the **schematics** for detailed pin assignments and wiring.
+For convenience, a **dedicated 4-pin male header** is provided for sensor integration. See the **schematics** for detailed pin assignments and wiring.
 
 ---
 
