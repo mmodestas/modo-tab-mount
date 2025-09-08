@@ -14,4 +14,4 @@ It integrates power delivery, clean cabling, and optional smart control.
 - Optional ESP32-C3 for smart charging & automation  
 - Support for WS2812 LEDs for status indication  
 
-![Side view](images/mount-side.jpg)
+![Side view](/images/mount-side.jpg)
