@@ -1,4 +1,11 @@
-# CHANGEME: Set these variable to your liking
-title: Modo-Tab-Mount
-description: An in-wall tablet mount with an optional smart power supply.
-theme: jekyll-theme-slate
+title: "Modo Tab Mount"
+description: "Smart in-wall tablet mount with charger and optional ESP32 integration"
+theme: minima
+
+# Navigation menu
+header_pages:
+  - index.md
+  - about.md
+  - installation.md
+  - pcb.md
+  - shop.md
