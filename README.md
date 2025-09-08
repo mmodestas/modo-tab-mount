@@ -4,6 +4,7 @@ This repository provides an in-wall tablet mount with an optional power supply b
 Firmware is built with ESPHome.
 
 ![Mount front](/static/assets/images/pic_1.png)
+![Mount front](/static/assets/images/pic_0.PNG)
 
 ## Features
 - Compatible with standard EU/US wall installation boxes  
