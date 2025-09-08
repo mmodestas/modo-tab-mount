@@ -7,7 +7,7 @@ title: Home
 A sleek in-wall tablet mount with integrated power supply and optional ESP32 control.  
 Designed for smart home dashboards and clean wall installations.  
 
-![Modo Tab Mount](docs/images/pic_3.png)
+![Modo Tab Mount](docs/images/pic_pcb_1.png)
 
 ---
 
