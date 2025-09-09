@@ -1,6 +1,7 @@
 ---
 title: Home
 ---
+[About](about.md) | [Installation Guide](installation.md) | [PCB Documentation](pcb.md) | [Shop](shop.md)
 
 # Modo Tab Mount
 
@@ -12,7 +13,3 @@ Designed for smart home dashboards and clean wall installations.
 ---
 
 ## Quick Links
-- [About](about.md)
-- [Installation Guide](installation.md)
-- [PCB Documentation](pcb.md)
-- [Shop](shop.md)
