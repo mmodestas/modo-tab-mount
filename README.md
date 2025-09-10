@@ -3,7 +3,7 @@
 This repository provides an in-wall tablet mount with an optional power supply based on the ESP32-C3 microcontroller.  
 Firmware is built with ESPHome.
 
-![Animation](docs/images/modo_tab_mout_animation2x.gif)
+[//]: ![Animation](docs/images/modo_tab_mout_animation2x.gif)
 ![Animation2](docs/images/mtm_animation.gif)
 
 ## Features
