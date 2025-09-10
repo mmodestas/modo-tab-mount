@@ -4,7 +4,9 @@ title: Home
 
 # About
 
-Sleek, minimalistic magnetic tablet mount for standard EU wall boxes, with less than 5 mm gap from the wall. Features a custom power supply controlled by ESP32-C3 with ESPHome firmware, smart charging, and optional LED status lighting. Magnetic docking makes mounting effortless, giving your tablet a clean, floating look — fully compatible with Home Assistant for seamless smart home integration.
+Sleek, minimalistic tablet mount designed for standard EU electrical wall installation boxes. Magnetic docking makes mounting effortless, giving your tablet a clean, floating look with less than a 5 mm gap from the wall—without blocking buttons or speakers.
+
+The mount includes a custom power supply that fits neatly into the flush installation box and is managed by an ESP32-C3 running ESPHome firmware. This enables smart charging control and optional LEDs for status indication or night light. It integrates seamlessly with Home Assistant and can also function as a Bluetooth proxy or host additional peripherals, such as presence or temperature sensors.
 
 [//]: ![Animation](images/modo_tab_mout_animation2x.gif)
 ![Animation2](images/mtm_animation_2.gif)
