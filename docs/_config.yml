@@ -2,10 +2,9 @@ title: "Modo Tab Mount"
 logo: /images/mtm_animation_2.gif
 theme: jekyll-theme-minimal
 
-# Navigation menu
-header_pages:
-  - index.md
-  - about.md
-  - installation.md
-  - pcb.md
-  - shop.md
+# Add custom CSS
+plugins:
+  - jekyll-seo-tag
+
+sass:
+  style: compressed
