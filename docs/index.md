@@ -9,8 +9,6 @@ title: Modo Tab Mount
   <a href="#optional-leds">Optional LEDs</a>
 </nav>
 
----
-
 ## Holder {#holder}
 The holder is mounted on the wall and provides the main docking area for the tablet. It includes cutouts for ventilation and alignment, ensuring stability while keeping buttons and speakers unblocked.
 
