@@ -12,8 +12,10 @@ title: Modo Tab Mount
 # Components {#Components}
 ## Mounting Plate
 <p>The mounting plate serves as the base structure for wall installation. 3D-printed using PETG with carbon fiber reinforcement filament.</p>
+
 ![Plate Front](images/pic_1.png)
 Designed to fit standard EU flush wall electrical installation boxes and is secured using M3 tapping screws.
+
 ![Plate Front](images/plate_screws_side.png)
 Other elements of the mounting plate:
 - Magnets: 12 small 5x5x5 mm neodymium N52 grade magnets with a hidden iron ring for secure magnetic attachment.
