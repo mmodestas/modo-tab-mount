@@ -1,0 +1,24 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.top-nav {
+  position: sticky;
+  top: 0;
+  background: #fff;
+  padding: 0.6rem 1rem;
+  z-index: 100;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+.top-nav a {
+  text-decoration: none;
+  margin: 0 0.5rem;
+  color: #0366d6; /* GitHub blue */
+  font-weight: bold;
+}
+
+.top-nav a:hover {
+  text-decoration: underline;
+}
