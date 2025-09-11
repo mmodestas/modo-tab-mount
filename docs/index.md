@@ -1,14 +1,14 @@
 ---
-title: Home
+title: Modo Tab Mount
 ---
 
-<nav>
-[About](#about) • 
-[Holder](#holder) • 
-[Metal Plate](#metal-plate) • 
-[Power Supply](#power-supply) • 
-[Flat USB Cable](#flat-usb-cable) • 
-[Optional LEDs](#optional-leds)
+<nav class="top-nav">
+  <a href="#about">About</a> •
+  <a href="#holder">Holder</a> •
+  <a href="#metal-plate">Metal Plate</a> •
+  <a href="#power-supply">Power Supply</a> •
+  <a href="#flat-usb-cable">Flat USB Cable</a> •
+  <a href="#optional-leds">Optional LEDs</a>
 </nav>
 
 ## About {#about}
