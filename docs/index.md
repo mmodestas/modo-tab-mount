@@ -2,33 +2,34 @@
 title: Modo Tab Mount
 ---
 <nav class="top-nav">
-  <a href="#holder">Holder</a> •
-  <a href="#metal-plate">Metal Plate</a> •
-  <a href="#power-supply">Power Supply</a> •
-  <a href="#flat-usb-cable">Flat USB Cable</a> •
-  <a href="#optional-leds">Optional LEDs</a>
+  <a href="#Components">Components</a> •
+  <a href="#Installation">Installation</a> •
+  <a href="#Gallery">Gallery</a> •
+  <a href="#Contacts">Contacts</a> •
 </nav>
 
 ---
 
-## Holder {#holder}
-The holder is mounted on the wall and provides the main docking area for the tablet. It includes cutouts for ventilation and alignment, ensuring stability while keeping buttons and speakers unblocked.
-
+# Components {#Components}
+## Mounting Plate
+This is a base structure for wall installation. It is 3d printed with PET-G + CF fillament.
 ![Plate Front](images/pic_1.png)
+It is designed to fit on standard EU flush wall electrical installation boxes. Screwed with M3 tapping screws.
 
----
+It has 12 small neodynium magnets and iron ring hidden inside.
 
-## Metal Plate {#metal-plate}
-A thin steel plate attaches to the back of the tablet with adhesive. This plate connects
-magnetically to the holder, giving the tablet a floating look and allowing easy docking
-and removal.
+4 round silicone pads for reducing friction and ensuring tablet is not scrached.
 
----
+## Iron Plate
+A 3 mm thick 42 mm in diameter iron plate is attached to middle of the tablet using 
+3M VHB double sided ultra strong tape. It enables magnetic attachment to the mount. 
 
-## Power Supply {#power-supply}
-A custom power supply fits inside the standard EU wall box. Controlled by an ESP32-C3
-microcontroller running ESPHome, it enables smart charging control and integration
-with Home Assistant.
+## USB Cable
+A custom thin flat USB type C cable connects power supply to tablet. It neatly 
+fits in the gap between wall and tablet. Cutouts in Mounting plate ensures it fits.
+
+# Power Supply {#power-supply}
+A custom power supply fits inside the standard EU wall box.
 
 ---
 
