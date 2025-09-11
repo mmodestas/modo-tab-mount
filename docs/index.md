@@ -12,15 +12,15 @@ title: Modo Tab Mount
 
 # Components {#Components}
 ## Mounting Plate
-The mounting plate serves as the base structure for wall installation. It is 3D-printed using PET-G with carbon fiber reinforcement filament.
+The mounting plate serves as the base structure for wall installation. 3D-printed using PETG with carbon fiber reinforcement filament.
 ![Plate Front](images/pic_1.png)
-It is designed to fit standard EU flush wall electrical installation boxes and is secured using M3 tapping screws.
+Designed to fit standard EU flush wall electrical installation boxes and is secured using M3 tapping screws.
 
-Features include:
-- Magnets: 12 small neodymium magnets with a hidden iron ring for secure magnetic attachment.
+Other elements of the mounting plate:
+- Magnets: 12 small 5x5x5 mm neodymium N52 grade magnets with a hidden iron ring for secure magnetic attachment.
 - Pads: 4 round silicone pads reduce friction and prevent scratches on the tablet.
 
-## Iron Plate
+## Tablet Plate
 A 3 mm thick iron plate with a 42 mm diameter is attached to the center of the tablet using 3M VHB double-sided ultra-strong tape.
 This enables a secure magnetic connection between the tablet and the mounting plate.
 
