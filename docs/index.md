@@ -4,8 +4,7 @@ title: Modo Tab Mount
 <nav class="top-nav">
   <a href="#Components">Components</a> •
   <a href="#Installation">Installation</a> •
-  <a href="#Gallery">Gallery</a> •
-  <a href="#Contacts">Contacts</a> •
+  <a href="#Gallery">Gallery</a>
 </nav>
 
 ---
