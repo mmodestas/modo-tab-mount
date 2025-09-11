@@ -12,30 +12,25 @@ title: Modo Tab Mount
 
 # Components {#Components}
 ## Mounting Plate
-This is a base structure for wall installation. It is 3d printed with PET-G + CF fillament.
+The mounting plate serves as the base structure for wall installation. It is 3D-printed using PET-G with carbon fiber reinforcement filament.
 ![Plate Front](images/pic_1.png)
-It is designed to fit on standard EU flush wall electrical installation boxes. Screwed with M3 tapping screws.
+It is designed to fit standard EU flush wall electrical installation boxes and is secured using M3 tapping screws.
 
-It has 12 small neodynium magnets and iron ring hidden inside.
-
-4 round silicone pads for reducing friction and ensuring tablet is not scrached.
+Features include:
+- Magnets: 12 small neodymium magnets with a hidden iron ring for secure magnetic attachment.
+- Pads: 4 round silicone pads reduce friction and prevent scratches on the tablet.
 
 ## Iron Plate
-A 3 mm thick 42 mm in diameter iron plate is attached to middle of the tablet using 
-3M VHB double sided ultra strong tape. It enables magnetic attachment to the mount. 
+A 3 mm thick iron plate with a 42 mm diameter is attached to the center of the tablet using 3M VHB double-sided ultra-strong tape.
+This enables a secure magnetic connection between the tablet and the mounting plate.
 
 ## USB Cable
-A custom thin flat USB type C cable connects power supply to tablet. It neatly 
-fits in the gap between wall and tablet. Cutouts in Mounting plate ensures it fits.
+A custom thin, flat USB Type-C cable connects the power supply to the tablet.
+- Designed to fit neatly in the gap between the wall and tablet
+- Mounting plate cutouts ensure proper cable routing without pinching or bending
 
-# Power Supply {#power-supply}
+# Power Supply
 A custom power supply fits inside the standard EU wall box.
-
----
-
-## Flat USB Cable {#flat-usb-cable}
-A flat USB cable runs from the power supply to the tablet, hidden neatly along the wall
-or behind the holder. It ensures reliable charging without compromising the slim design.
 
 ---
 
