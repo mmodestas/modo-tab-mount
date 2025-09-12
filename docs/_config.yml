@@ -1,4 +1,4 @@
 title: "Modo Tab Mount"
 logo: /images/mtm_animation_2.gif
-description: <p>Sleek, minimalist tablet mount for standard EU wall boxes — strong magnetic docking, integrated 5 V power supply with ESP32-C3/ESPHome control, optional addressable LEDs, Bluetooth proxy, and support for additional sensors. Seamless Home Assistant integration</p>
+description: <p>Sleek magnetic tablet mount with a smart ESP32-C3/ESPHome power supply, designed for seamless Home Assistant integration. Fits standard EU wall boxes.</p>
 theme: jekyll-theme-minimal
