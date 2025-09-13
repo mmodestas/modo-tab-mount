@@ -21,7 +21,7 @@ Other elements of the mounting plate:
 - 12 small 5x5x5 mm neodymium N52 grade magnets with a hidden iron ring for secure magnetic attachment.
 - 4 round silicone pads reduce friction and prevent scratches on the tablet.
 
-![Plate Explosion](images/plate_explosion_1.gif)
+![Plate Explosion](images/plate_explode_anm.gif)
 
 ## Tablet Plate
 A 3 mm thick iron plate with a 42 mm diameter is attached to the back of the tablet using 3M VHB double-sided ultra-strong tape. This enables a secure magnetic connection between the tablet and the mounting plate.
